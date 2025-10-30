@@ -1,4 +1,5 @@
 Concept de l’application SaaS (version finale avec gestion des utilisateurs)
+
 Objectif : Créer un logiciel flutter de suivi des activités financières d’une entreprise, centralisant les recettes et dépenses, avec un journal pour le suivi, la gestion des activités, et la gestion des utilisateurs.
 
 1. Gestion des utilisateurs
