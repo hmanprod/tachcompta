@@ -1,0 +1,93 @@
+name: fintrack_pro
+description: "Logiciel Desktop de Gestion Financière d'Entreprise - FinTrack Pro"
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.0.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+
+  # State Management
+  flutter_riverpod: ^2.4.9
+  riverpod_annotation: ^2.3.3
+
+  # Database
+  drift: ^2.14.0
+  sqlite3_flutter_libs: ^0.5.15
+  path_provider: ^2.1.1
+  path: ^1.8.3
+
+  # UI & Charts
+  fl_chart: ^1.1.1
+  cupertino_icons: ^1.0.6
+  flutter_svg: ^2.0.9
+  shimmer: ^3.0.0
+  lottie: ^2.7.0
+
+  # Authentication & Security
+  crypto: ^3.0.3
+  shared_preferences: ^2.2.2
+  jwt_decoder: ^2.0.1
+
+  # Utils
+  intl: ^0.20.2
+  uuid: ^4.2.1
+  equatable: ^2.0.5
+  collection: ^1.17.2
+
+  # File Handling
+  # file_picker: ^6.1.1  # Supprimé temporairement
+  excel: ^2.1.0
+  pdf: ^3.10.7
+  # open_file: ^3.3.2  # Supprimé temporairement
+
+  # Validation
+  reactive_forms: ^17.0.1
+  fpdart: ^1.1.0
+  # reactive_validators: ^17.0.1  # Package not found
+
+  # Date/Time - Removed incompatible package
+  # time_machine: ^1.1.0
+
+  # Sync (Optionnel)
+  supabase_flutter: ^1.10.25
+
+  # Platform Specific
+  window_manager: ^0.3.7
+  desktop_lifecycle: ^0.1.0
+  go_router: ^16.3.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+  # Code Generation
+  build_runner: ^2.4.7
+  riverpod_generator: ^2.3.3
+  drift_dev: ^2.14.0
+
+  # Testing
+  mockito: ^5.4.2
+  integration_test:
+    sdk: flutter
+
+  # Code Quality
+  very_good_analysis: ^5.1.0
+  flutter_hooks: ^0.18.6
+
+flutter:
+  uses-material-design: true
+
+  # Assets supprimés - dossiers vides
+  # assets:
+  #   - assets/images/
+  #   - assets/icons/
+
+  # Fonts supprimées - pas de polices locales installées
+  # Les polices système par défaut seront utilisées

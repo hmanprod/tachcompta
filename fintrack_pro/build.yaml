@@ -1,0 +1,16 @@
+targets:
+  $default:
+    builders:
+      drift_dev:
+        options:
+          # Optimisations de génération
+          generate_connect_constructor: true
+          # Configuration des imports
+          apply_converters_on_variables: true
+          # Configuration des noms des fichiers générés
+          store_date_time_values_as_text: false
+      # Configuration Riverpod
+      riverpod_generator:
+        options:
+          # Générer pour tous les providers
+          generate_for_all_providers: true
